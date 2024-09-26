@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barra de navegación */
+.navbar{
+    background-color: #2e0037;
+    height: 70px;
+
+}
+.navbar-nav li a{
+    color: rgb(230, 230, 230);
+    font-weight: 500;
+}
+
+.navbar-nav li a:hover , navbar-nav.active{
+    color: rgb(201, 105, 145);
+}
+
+.img_logo{
+    height: 80px;
+    padding: 2px;
+    
+}
+
+.offcanvas-header{
+    background-color: #2e0037;
+    color: aliceblue;
+}
+.offcanvas-body{
+   background-color: #2e0037;
+}
+
+
+.navbar-toggler {
+    border: none;
+    
+}
+
+.navbar-toggler:focus, .btn-close::focus{
+    box-shadow: none;
+    outline: none;
+}
+
+/* CARD */
+.card-img-top{
+    
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.card-body{
+    padding: 30px;
+    margin-top: -50px;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+}
+
+.padre{
+    justify-content:center;
+    margin: 80px;
+}
+.padre h1{
+    color: #2e0037;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+/* Video */
+.video h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video p {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+/* footer */
+.contenido {
+    background-color: #2e0037;
+    height: 300px;
+    color: aliceblue;
+    padding: 30px;
+}
+
+.contenido img{
+    padding: 20px;
+    height: 200px;
+    justify-content: center;
+}
+
+/* Sobre la empresa  */
+.nosotros{
+    text-align: justify;
+    padding: 50px;
+}
+
+.nosotros h1{
+    font-size: 50px;
+    color: #2e0037;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
